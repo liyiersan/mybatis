@@ -11,11 +11,12 @@ import java.sql.DriverManager;
  * @date: 2020/2/4
  * @blog:
  * @version:1.0.0
- * @description:
+ * @description: 创建数据源的工具类
  */
 
 public class DataSourceUtil {
 
+    /* 用于获取一个连接 */
     public static Connection getConnection(Configuration cfg){
         try {
             Class.forName(cfg.getDriver());

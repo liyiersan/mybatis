@@ -30,7 +30,7 @@ public class Executor {
             List<E> list = new ArrayList<E>();//定义返回值
             while(rs.next()) {
                 //实例化要封装的实体类对象
-                E obj = (E)domainClass.newInstance();
+                E obj = (E)domainClass.getDeclaredConstructor().newInstance();
 
                 //取出结果集的元信息：ResultSetMetaData
                 ResultSetMetaData rsmd = rs.getMetaData();

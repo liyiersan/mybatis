@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98c3644a-1750-472a-a623-0f6673ae093f" name="Default Changelist" comment="" />
+    <list default="true" id="98c3644a-1750-472a-a623-0f6673ae093f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_design/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_design/.idea/mybatis04_design.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_design/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/annotations/Select.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/io/Resources.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/io/Resources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/SqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/SqlSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/SqlSessionFactoryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/utils/DataSourceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/utils/DataSourceUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/utils/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/utils/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/utils/XMLConfigBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/utils/XMLConfigBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/resources/com/whu/cs/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/resources/com/whu/cs/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/target/classes/META-INF/mybatis04_design.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/target/classes/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/target/classes/SqlMapConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis04_design/target/classes/com/whu/cs/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/target/classes/com/whu/cs/dao/IUserDao.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +36,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -32,15 +56,18 @@
     </option>
   </component>
   <component name="ProjectId" id="1X3NxxD97lHH7eqYH0nzx6C4lkg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -101,6 +128,7 @@
       <workItem from="1580886620457" duration="778000" />
       <workItem from="1580887813248" duration="1119000" />
       <workItem from="1580958664874" duration="650000" />
+      <workItem from="1580962579591" duration="3236000" />
     </task>
     <servers />
   </component>
