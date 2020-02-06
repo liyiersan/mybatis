@@ -1,2 +1,6 @@
 # mybatis
 mybatis学习源代码
+mybatis01为mybatis入门案例（xml实现配置）
+mybatis02为注解方式实现入门案例
+mybatis03为自定义dao实现类来实现入门案例
+mybatis04为自定义mybatis实现入门案例
