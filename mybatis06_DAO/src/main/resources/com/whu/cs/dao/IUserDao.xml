@@ -3,15 +3,9 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.whu.cs.dao.IUserDao">
-
-
-
     <!-- 配置查询所有 -->
     <select id="findAll" resultType="com.whu.cs.domain.User">
         select * from user;
-        <!-- 用给列名起别名的方式解决实体类属性名和数据库列名不一致的问题，此方法查询较快 -->
-         select id as userId, username as userName, address as userAddress, sex as userSex,
-         birthday as userBirthday
     </select>
 
     <!-- 配置保存用户 -->
