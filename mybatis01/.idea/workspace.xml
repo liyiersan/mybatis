@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="98c3644a-1750-472a-a623-0f6673ae093f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/SqlMapConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis03_dao/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis03_dao/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis04_design/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/SqlSessionFactoryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/SqlSessionFactoryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/defaults/DefualtSqlSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/defaults/DefaultSqlSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/defaults/DefualtSqlSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis04_design/src/main/java/com/whu/cs/mybatis/sqlsession/defaults/DefaultSqlSessionFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="98c3644a-1750-472a-a623-0f6673ae093f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +18,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -118,7 +111,7 @@
       <workItem from="1580962579591" duration="3236000" />
       <workItem from="1581055073899" duration="120000" />
       <workItem from="1581128383383" duration="207000" />
-      <workItem from="1581476573261" duration="1554000" />
+      <workItem from="1581476573261" duration="1823000" />
     </task>
     <servers />
   </component>
@@ -159,10 +152,10 @@
     </state>
     <state x="413" y="251" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1581128384425" />
     <state x="413" y="249" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1581055734676" />
-    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581478342194">
+    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581478412721">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1581478342194" />
+    <state x="525" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1581478412721" />
     <state x="153" y="103" key="new project wizard" timestamp="1581129697743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
