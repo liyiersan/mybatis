@@ -13,11 +13,11 @@ import com.whu.cs.mybatis.sqlsession.SqlSessionFactory;
  * @description: SqlSessionFactory接口的实现类
  */
 
-public class DefualtSqlSessionFactory implements SqlSessionFactory {
+public class DefaultSqlSessionFactory implements SqlSessionFactory {
 
     private Configuration cfg;
 
-    public  DefualtSqlSessionFactory(Configuration cfg){
+    public DefaultSqlSessionFactory(Configuration cfg){
         this.cfg = cfg;
     }
 
@@ -30,6 +30,6 @@ public class DefualtSqlSessionFactory implements SqlSessionFactory {
     **/
     @Override
     public SqlSession openSession() {
-        return new DefualtSqlSession(cfg);
+        return new DefaultSqlSession(cfg);
     }
 }

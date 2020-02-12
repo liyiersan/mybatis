@@ -18,12 +18,12 @@ import java.sql.Connection;
  * @description: SqlSession接口的实现类
  */
 
-public class DefualtSqlSession implements SqlSession {
+public class DefaultSqlSession implements SqlSession {
 
     private Configuration cfg;
     private Connection connection;
 
-    public DefualtSqlSession(Configuration cfg){
+    public DefaultSqlSession(Configuration cfg){
         this.cfg = cfg;
         connection = DataSourceUtil.getConnection(cfg);
     }

@@ -1,7 +1,7 @@
 package com.whu.cs.mybatis.sqlsession;
 
 import com.whu.cs.mybatis.config.Configuration;
-import com.whu.cs.mybatis.sqlsession.defaults.DefualtSqlSessionFactory;
+import com.whu.cs.mybatis.sqlsession.defaults.DefaultSqlSessionFactory;
 import com.whu.cs.mybatis.utils.*;
 
 import java.io.InputStream;
@@ -23,6 +23,6 @@ public class SqlSessionFactoryBuilder {
      */
     public SqlSessionFactory build(InputStream config){
         Configuration cfg = XMLConfigBuilder.loadConfiguration(config);
-        return new DefualtSqlSessionFactory(cfg);
+        return new DefaultSqlSessionFactory(cfg);
     }
 }
