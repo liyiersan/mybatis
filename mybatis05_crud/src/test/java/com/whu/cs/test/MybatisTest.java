@@ -1,5 +1,6 @@
 package com.whu.cs.test;
 
+import com.whu.cs.domain.QueryVo;
 import com.whu.cs.domain.User;
 import com.whu.cs.dao.IUserDao;
 import org.apache.ibatis.io.Resources;
@@ -71,11 +72,13 @@ public class MybatisTest {
     @Test
     public void testSaveUser() throws IOException {
         User user = new User();
-        user.setUsername("li san");
+        user.setUsername("li yier");
         user.setAddress("湖北省武汉市");
         user.setSex("男");
         user.setBirthday(new Date());
+        System.out.println("插入数据库之前：" + user);
         userDao.saveUser(user);
+        System.out.println("插入数据库之后：" + user);
     }
 
     /**
@@ -139,5 +142,23 @@ public class MybatisTest {
     public void testFindTotal() throws IOException {
         int total = userDao.findTotal();
         System.out.println("用户总数为：" + total);
+    }
+
+    /**
+     * 测试根据封装pojo对象进行查询
+     *
+     * @throws IOException
+     */
+    @Test
+    public void testFindByVo() throws IOException {
+        QueryVo vo = new QueryVo();
+        User u = new User();
+        u.setUsername("%王%");
+        vo.setUser(u);
+        List<User> users = userDao.findUserByVo(vo);
+        for (User user : users
+        ) {
+            System.out.println(user);
+        }
     }
 }

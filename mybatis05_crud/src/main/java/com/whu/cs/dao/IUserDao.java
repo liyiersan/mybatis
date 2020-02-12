@@ -1,5 +1,6 @@
 package com.whu.cs.dao;
 
+import com.whu.cs.domain.QueryVo;
 import com.whu.cs.domain.User;
 
 import java.util.List;
@@ -56,4 +57,11 @@ public interface IUserDao {
      * @return
      */
     int findTotal();
+
+    /**
+     * 封装pojo对象来进行查询
+     * @param vo
+     * @return
+     */
+    List<User> findUserByVo(QueryVo vo);
 }
