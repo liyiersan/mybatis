@@ -10,9 +10,9 @@
         <!-- 配置主键 -->
         <id property="userId" column="id"></id>
         <!-- 配置非主键 -->
-        <id property="userAddress" column="address"></id>
-        <id property="userSex" column="sex"></id>
-        <id property="userBirthday" column="birthday"></id>
+        <result property="userAddress" column="address"></result>
+        <result property="userSex" column="sex"></result>
+        <result property="userBirthday" column="birthday"></result>
     </resultMap>
 
     <!-- 配置查询所有 -->

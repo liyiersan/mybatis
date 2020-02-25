@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39580d39-4147-41cc-aad0-6a917ec9e137" name="Default Changelist" comment="" />
+    <list default="true" id="39580d39-4147-41cc-aad0-6a917ec9e137" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/mybatis07_dynamicSQL.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/src/main/java/com/whu/cs/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/src/main/java/com/whu/cs/domain/QueryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/src/main/java/com/whu/cs/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/src/main/resources/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/src/main/resources/com/whu/cs/dao/IUserDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mybatis07_dynamicSQL/src/test/java/com/whu/cs/test/MybatisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis05_crud/target/classes/com/whu/cs/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis05_crud/target/classes/com/whu/cs/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/whu/cs/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/whu/cs/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whu/cs/dao/IUserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whu/cs/dao/IUserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis06_DAO/src/main/java/com/whu/cs/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis06_DAO/src/main/java/com/whu/cs/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mybatis06_DAO/src/test/java/com/whu/cs/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../mybatis06_DAO/src/test/java/com/whu/cs/test/MybatisTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -23,6 +47,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XhlCZczXzxBojqFmgOlCuXXjD5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -32,12 +57,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/in" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.testFindAll">
+  <component name="RunManager" selected="JUnit.MybatisTest.testSaveUser">
     <configuration name="MybatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis05_crud_2" />
       <extension name="coverage">
@@ -120,8 +145,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisTest.testFindAll" />
         <item itemvalue="JUnit.MybatisTest.testSaveUser" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll" />
         <item itemvalue="JUnit.MybatisTest.testFindByVo" />
         <item itemvalue="JUnit.MybatisTest.testFindTotal" />
         <item itemvalue="JUnit.MybatisTest.testFindByName" />
@@ -139,6 +164,9 @@
       <option name="presentableId" value="Default" />
       <updated>1581506079076</updated>
       <workItem from="1581506083669" duration="3226000" />
+      <workItem from="1582000963796" duration="3694000" />
+      <workItem from="1582168587193" duration="269000" />
+      <workItem from="1582598670977" duration="67000" />
     </task>
     <servers />
   </component>
@@ -146,21 +174,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom" timestamp="1581510451376">
+    <state width="1398" height="157" key="GridCell.Tab.0.bottom" timestamp="1582010039191">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581510451376" />
-    <state width="1398" height="304" key="GridCell.Tab.0.center" timestamp="1581510451374">
+    <state width="1398" height="157" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582010039191" />
+    <state width="1398" height="157" key="GridCell.Tab.0.center" timestamp="1582010039185">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581510451374" />
-    <state width="1398" height="304" key="GridCell.Tab.0.left" timestamp="1581510451373">
+    <state width="1398" height="157" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582010039185" />
+    <state width="1398" height="157" key="GridCell.Tab.0.left" timestamp="1582010039183">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581510451373" />
-    <state width="1398" height="304" key="GridCell.Tab.0.right" timestamp="1581510451375">
+    <state width="1398" height="157" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582010039183" />
+    <state width="1398" height="157" key="GridCell.Tab.0.right" timestamp="1582010039190">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="304" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581510451375" />
+    <state width="1398" height="157" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582010039190" />
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog" timestamp="1582598671845">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="413" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1582168586344" />
+    <state x="413" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1582598671845" />
   </component>
 </project>
