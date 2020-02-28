@@ -118,12 +118,6 @@ public class MybatisTest {
         QueryVo vo = new QueryVo();
         User user = new User();
         user.setUsername("老王");
-        vo.setUser(user);
-        List<Integer> ids = new ArrayList<>();
-        ids.add(41);
-        ids.add(42);
-        ids.add(43);
-        vo.setIds(ids);
         List<User> users = userDao.findUserByCondition(user);
         for (User u : users
         ) {
@@ -145,6 +139,25 @@ public class MybatisTest {
         ids.add(43);
         vo.setIds(ids);
         List<User> users = userDao.findUserInIds(vo);
+        for (User user : users
+        ) {
+            System.out.println(user);
+        }
+    }
+
+
+    /**
+     * 测试集合中的id值进行查询
+     * 直接传入list进行查询
+     * @throws IOException
+     */
+    @Test
+    public void testFindUsersByIds() throws IOException {
+        List<Integer> ids = new ArrayList<>();
+        ids.add(41);
+        ids.add(42);
+        ids.add(43);
+        List<User> users = userDao.findUsersByIds(ids);
         for (User user : users
         ) {
             System.out.println(user);

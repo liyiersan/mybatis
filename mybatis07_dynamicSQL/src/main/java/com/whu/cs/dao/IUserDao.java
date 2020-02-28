@@ -58,4 +58,11 @@ public interface IUserDao {
      * @return
      */
     List<User> findUserInIds(QueryVo vo);
+
+    /**
+     * 根据list中的id值，查询用户信息
+     * @param list
+     * @return
+     */
+    List<User> findUsersByIds(List<Integer> list);
 }

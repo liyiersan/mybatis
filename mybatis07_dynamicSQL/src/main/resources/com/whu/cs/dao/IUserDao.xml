@@ -4,6 +4,11 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.whu.cs.dao.IUserDao">
+
+    <sql id = "default">
+        select * from user
+    </sql>
+
     <!-- 配置查询所有 -->
     <select id="findAll" resultType="com.whu.cs.domain.User">
         select * from user;
@@ -28,7 +33,7 @@
     <!-- 配置根据动态条件对象查询用户 -->
     <select id="findUserByCondition" parameterType="com.whu.cs.domain.User" resultType="com.whu.cs.domain.User">
          select *  from user where 1 = 1
-         <if test="username != null ">
+         <if test="username != null and username != '' ">
              and username = #{username}
          </if>
          <if test="id != null">
@@ -42,6 +47,19 @@
         <where>
             <if test="ids != null and ids.size()>0">
                 <foreach collection="ids" open="and id in (" close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+
+    <!-- 配置根据id集合查询用户 -->
+    <select id="findUsersByIds" parameterType="java.util.List" resultType="com.whu.cs.domain.User">
+        select *  from user
+        <where>
+            <if test="list != null and list.size()>0">
+                <foreach collection="list" open="and id in (" close=")" item="uid" separator=",">
                     #{uid}
                 </foreach>
             </if>
