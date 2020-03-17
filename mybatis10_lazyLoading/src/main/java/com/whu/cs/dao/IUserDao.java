@@ -73,7 +73,7 @@ public interface IUserDao {
     List<User> findUserByVo(QueryVo vo);
 
     /**
-     * 查询带有账户信息的用户信息
+     * 以延迟加载的方式查询带有账户信息的用户信息
      * @return
      */
     List<User> findUserWithAccounts();

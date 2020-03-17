@@ -78,17 +78,22 @@ public class AccountTest {
     }
 
     /**
-     * 测试查询带有用户信息的账户信息
+     * 测试以延迟加载的方式查询带有用户信息的账户信息
      *
      * @throws IOException
      */
     @Test
     public void testFindAllAccountsWithUser() throws IOException {
         List<Account> accounts = accountDao.findAllAccountsWithUser();
+        int i = 0;
         for (Account account : accounts
         ) {
-            System.out.println(account);
-            System.out.println(account.getUser());
+            System.out.println(account.getMoney());
+            if(i == 1)
+                System.out.println(account.getUser()); //只有当需要user信息时，才对user进行查询
+            i++;
+//            System.out.println(account);//这里表明每次查询都需要加载完整数据
+//            System.out.println(account.getUser());
         }
     }
 }

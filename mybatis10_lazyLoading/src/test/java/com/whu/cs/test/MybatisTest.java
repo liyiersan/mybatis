@@ -167,10 +167,12 @@ public class MybatisTest {
     public void testFindUserWithAccounts() {
         //6.执行操作
         List<User> users = userDao.findUserWithAccounts();
+        int i = 0;
         for(User user : users) {
-            System.out.println("-------每个用户的内容---------");
-            System.out.println(user);
-            System.out.println(user.getAccounts());
+            System.out.println(user.getUsername());
+            if(i == 3)
+                System.out.println(user.getAccounts());
+            i++;
         }
     }
 
