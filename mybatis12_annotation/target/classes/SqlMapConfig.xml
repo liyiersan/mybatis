@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 导入数据库连接信息 -->
+    <properties resource="jdbcConfig.properties"></properties>
+
+    <!-- 配置延迟加载和二级缓存 -->
+    <settings>
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+    <!-- 给实体类取别名 -->
+    <typeAliases>
+        <package name="com.whu.cs.domain"/>
+    </typeAliases>
+
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <!-- 连接数据库信息 -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 配置 dao 接口的位置，它有两种方式
+        第一种:使用 mapper 标签配置 class 属性
+        第二种:使用 package 标签，直接指定 dao 接口所在的包
+     -->
+    <mappers>
+        <package name="com.whu.cs.dao"/>
+    </mappers>
+
+</configuration>
